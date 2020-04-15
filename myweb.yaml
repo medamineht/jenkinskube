@@ -16,7 +16,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: 192.168.224.235:5000/medamin/myweb:6
+      - image: 192.168.224.235:5000/medamin/myweb:{$BUILD_NUMBER}
         imagePullPolicy: Always
         name: myweb
 
