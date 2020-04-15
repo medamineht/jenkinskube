@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    registry = "192.168.224.1:5000/medamin/myweb"
+    registry = "192.168.224.235:5000/medamin/myweb"
     dockerImage = ""
   }
 
